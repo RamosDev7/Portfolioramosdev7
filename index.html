@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eduardo Ramos | Desenvolvedor Front End</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero-section">
+    <div class="container hero-content">
+      <div class="avatar-wrapper">
+        <img src="assets/img/eu.png" alt="Eduardo Ramos" class="avatar-img" />
+      </div>
+
+      <h1 class="hero-title">Eduardo <span class="neon-text">Ramos</span></h1>
+      <p class="hero-subtitle">Desenvolvedor <span class="orange-text">Backend</span></p>
+      <p class="hero-desc">Transformando ideias em soluções digitais reais.</p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+        <a href="#contact" class="btn btn-outline">Entrar em Contato</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section scroll-animate">
+    <div class="container">
+      <h2 class="section-title"><span class="neon-tag">//</span> Sobre Mim</h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="code-greet">&lt;Olá Mundo! /&gt;</p>
+          <p>
+            Olá! Me chamo <strong>Eduardo Ramos</strong>, tenho <strong>22 anos</strong> e sou estudante de
+            <strong>Ciência da Computação</strong>. Apaixonado por tecnologia e focado em desenvolvimento backend.
+          </p>
+          <p>
+            Meu objetivo principal é evoluir continuamente como desenvolvedor e conquistar uma sólida carreira como <strong>Engenheiro de Software</strong>, contribuindo para projetos inovadores e impactantes.
+          </p>
+          <div class="about-socials">
+            <a href="https://github.com/Ramosdev7" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/eduramos1133/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/Ramosdev7/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          </div>
+        </div>
+
+        <div class="code-card">
+          <div class="code-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="code-title">developer.js</span>
+          </div>
+          <pre><code><span class="k">const</span> developer = {
+    <span class="p">name</span>: <span class="s">"Eduardo Ramos"</span>,
+    <span class="p">age</span>: <span class="n">22</span>,
+    <span class="p">role</span>: <span class="s">"Backend Developer"</span>,
+    };</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills-section scroll-animate">
+    <div class="container">
+      <h2 class="section-title"><span class="neon-tag">//</span> Habilidades</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fa-brands fa-js skill-icon" style="color: #F7DF1E;"></i>
+          <h3>JavaScript</h3>
+          <span class="badge">Básico</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-python skill-icon" style="color: #3776AB;"></i>
+          <h3>Python</h3>
+          <span class="badge">Básico</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-github skill-icon" style="color: #FFFFFF;"></i>
+          <h3>Git & GitHub</h3>
+          <span class="badge">Básico</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-database skill-icon" style="color: #00758F;"></i>
+          <h3>SQL</h3>
+          <span class="badge">Básico</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects-section scroll-animate">
+    <div class="container">
+      <h2 class="section-title"><span class="neon-tag">//</span> Projetos em Destaque</h2>
+      <div class="projects-grid">
+        <!-- Projeto 1: Medflow -->
+        <div class="project-card">
+          <div class="project-badge">Saúde & IA</div>
+          <h3>Medflow</h3>
+          <p>Plataforma para área da saúde aplicando tecnologia e IA para otimização de fluxos médicos.</p>
+          <div class="tags">
+            <span>HTML5 & CSS3</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://medflowsaude.lovable.app" target="_blank" class="btn-sm btn-primary">Ver Demo</a>
+            <a href="https://github.com/RamosDev7/medflow-your-health-navigator" target="_blank" class="btn-sm btn-outline"><i class="fa-brands fa-github"></i> Código</a>
+          </div>
+        </div>
+
+        <!-- Projeto 2: Alto Nível -->
+        <div class="project-card">
+          <div class="project-badge">Ferramentas</div>
+          <h3>Gerador de Senhas</h3>
+          <p>Soluções digitais com alta performance, design responsivo e arquitetura moderna de componentes.</p>
+          <div class="tags">
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="https://duhzeraa.github.io/AltoNivel/" target="_blank" class="btn-sm btn-primary">Ver Demo</a>
+            <a href="https://github.com/Duhzeraa/AltoNivel" target="_blank" class="btn-sm btn-outline"><i class="fa-brands fa-github"></i> Código</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBJECTIVE SECTION -->
+  <section id="objective" class="objective-section scroll-animate">
+    <div class="container">
+      <div class="objective-box">
+        <h2 class="section-title" style="margin-bottom: 12px;"><span class="orange-tag">//</span> Objetivo de Carreira</h2>
+        <p>
+          Comprometido em dominar os fundamentos da computação e engenharia de software para evoluir de desenvolvedor Front End para um perfil <strong>Sênior</strong> de alto impacto técnico, entregando produtos rápidos, escaláveis e com design de ponta.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section scroll-animate">
+    <div class="container">
+      <h2 class="section-title"><span class="neon-tag">//</span> Entrar em Contato</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Vamos conversar?</h3>
+          <p>Estou aberto a oportunidades profissionais, estágios, freelas ou troca de ideias sobre desenvolvimento!</p>
+          
+          <div class="info-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:eduramos1133@gmail.com">eduramos1133@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fa-brands fa-linkedin"></i>
+            <div>
+              <strong>LinkedIn</strong>
+              <a href="https://www.linkedin.com/in/eduramos1133/" target="_blank">in/eduramos1133</a>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fa-brands fa-instagram"></i>
+            <div>
+              <strong>Instagram</strong>
+              <a href="https://www.instagram.com/Ramosdev7/" target="_blank">@Ramosdev7</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Eduardo Ramos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
